@@ -1,16 +1,75 @@
-# ecommerce_app
+# E-Commerce Application
 
-A new Flutter project.
+A full-stack e-commerce platform built with Flutter, Node.js, MongoDB, and Stripe.
+Supports user authentication, product browsing, shopping cart, secure checkout, orders, and an admin dashboard for product and order management.
 
-## Getting Started
+# Features
+# User Features
 
-This project is a starting point for a Flutter application.
+Browse products in grid view
 
-A few resources to get you started if this is your first Flutter project:
+View product details
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Add to cart / remove from cart
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Cart summary with real-time updates
+
+Checkout with address form
+
+Stripe Payments (Android/iOS)
+
+Order creation after successful payment
+
+View order history
+
+JWT-based authentication (register/login/logout)
+
+# Admin Features
+
+Admin-only access panel
+
+Create new products
+
+Update existing products
+
+Delete products
+
+View all orders
+
+Manage inventory
+
+# Tech Stack
+# Frontend (Mobile + Web)
+
+Flutter
+
+Provider for state management
+
+HTTP for REST APIs
+
+Shared Preferences for local token storage
+
+Flutter Stripe for payments
+
+Material 3 UI
+
+Fully responsive UI
+
+# Backend
+
+Node.js + Express
+
+MongoDB + Mongoose
+
+Stripe PaymentIntent API
+
+JWT Authentication
+
+Bcrypt password hashing
+
+CORS + Morgan
+
+Structured REST API
+
+Folder Structure
+Flutter App
